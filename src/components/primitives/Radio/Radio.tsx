@@ -205,4 +205,4 @@ const Radio = (
   );
 };
 
-export default memo(forwardRef(Radio));
+export default forwardRef(Radio);
