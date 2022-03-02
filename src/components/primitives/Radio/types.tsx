@@ -94,7 +94,7 @@ export interface IRadioGroupProps extends IBoxProps<IRadioGroupProps> {
   /**
    * Pass props will be passed to each radio.
    */
-  _radio?: IRadioProps;
+  _radio?: Omit<IRadioProps, 'value'>;
 }
 export interface IRadioContext extends IFormControlContext {
   colorScheme?: string;
